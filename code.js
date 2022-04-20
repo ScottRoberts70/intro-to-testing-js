@@ -13,8 +13,15 @@ function plusOne(num) {
     return 0;
 }
 //Exercise #1.... so on...
-function sayHello(){
- return "Hello!";
+function sayHello(input){
+    return "Hello, " + input + "!";
+   // if (input === 'Alex'){
+   //     return 'Hello, Alex!';
+   // }
+   // else if (input === 'Jane'){
+   //      return 'Hello, Jane!';
+   // }else{
+   //      return 'Hello, Pat!';
+   //  }
 }
-
 
