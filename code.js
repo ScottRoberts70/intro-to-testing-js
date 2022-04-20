@@ -12,7 +12,7 @@ function plusOne(num) {
     }
     return 0;
 }
-//Exercise #1.... so on...
+//Exercise #1 - 10
 function sayHello(input){
     if(input == undefined || (input === true) || (input === false)){
         return 'Hello, World!';
@@ -29,3 +29,7 @@ function sayHello(input){
    //  }
 }
 
+// Exercise #11 isFive
+function isFive(num){
+    return num;
+}

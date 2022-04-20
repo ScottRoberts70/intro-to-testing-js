@@ -31,7 +31,8 @@ describe('plusOne', function(){
     });
 });
 
-//Exercise #1 sayHello()
+//Exercise #1 - #10 sayHello()
+
 describe('sayHello', function() {
     it('should be a defined function', function () {
         expect(typeof sayHello).toBe('function');
@@ -59,3 +60,16 @@ describe('sayHello', function() {
     });
 });
 
+
+    describe('isFive', function() {
+        it('should be a defined function', function () {
+            expect(typeof isFive).toBe('function');
+        });
+    });
+
+it('should be a defined function', function() {
+    expect(typeof helloWorld).toBe('function');
+});
+it('should return a string when called', function() {
+    expect(typeof helloWorld()).toBe("string");
+});
