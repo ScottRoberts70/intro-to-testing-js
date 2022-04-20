@@ -14,7 +14,11 @@ function plusOne(num) {
 }
 //Exercise #1.... so on...
 function sayHello(input){
-    return "Hello, " + input + "!";
+    if(input == undefined || (input === true) || (input === false)){
+        return 'Hello, World!';
+    }else {
+        return "Hello, " + input + "!";
+    }
    // if (input === 'Alex'){
    //     return 'Hello, Alex!';
    // }
