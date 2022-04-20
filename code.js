@@ -12,7 +12,9 @@ function plusOne(num) {
     }
     return 0;
 }
-
+//Exercise #1.... so on...
 function sayHello(){
-
+ return "Hello!";
 }
+
+
